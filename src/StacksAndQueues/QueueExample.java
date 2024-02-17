@@ -2,7 +2,6 @@ package StacksAndQueues;
 
 import java.util.LinkedList;
 import java.util.Queue;
-import java.util.Stack;
 
 public class QueueExample {
     public static void main(String[] args) {
@@ -22,7 +21,5 @@ public class QueueExample {
         System.out.println("item poll = " + queue.poll());
         System.out.println("All items after poll = " + queue);
         System.out.println("item peek after poll = " + queue.peek());
-
-
     }
 }
